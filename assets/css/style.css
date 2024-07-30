@@ -1,0 +1,25 @@
+
+
+.click {
+    padding: 5px;
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    /* font-style: italic; */
+    border: 2px solid transparent;
+    transition: 0.3s linear;
+    border-radius: 10px;
+    text-decoration: none;
+    background: rgb(109, 108, 243);
+        background: linear-gradient(0deg, rgba(109, 108, 243, 1) 50%, rgba(31, 172, 224, 1) 72%);
+}
+
+.click:hover {
+    background-color: transparent;
+    transform:scale(0.8)
+}
+.mention{
+    font-size: 60px;
+    font-weight: 700;
+    color: red;
+}
